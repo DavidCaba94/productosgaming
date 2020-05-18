@@ -1,0 +1,169 @@
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+a:link {
+  text-decoration:none;
+  color: #000000;
+}
+
+.contenedor {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.cabecera {
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/banner-1600.png');
+}
+
+.contenedor-titulo {
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.titulo {
+  margin: 0 auto;
+  font-family: Courier;
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.subtitulo {
+  margin: 0 auto;
+  font-family: Courier;
+  font-size: 40px;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+.producto {
+  max-width: 300px;
+  height: 380px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #acacac;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.producto:hover {
+  box-shadow: 1px 2px 5px 5px #cab4ff;
+}
+
+.contenedor-imagen {
+  margin-top: 5%;
+  margin-left: 5%;
+  max-width: 90%;
+  height: 280px;
+  border: 1px solid #acacac;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.imagen {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.contenedor-nombre {
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.nombre {
+  margin: 0 auto;
+  font-family: Courier;
+  font-size: 25px;
+}
+
+.pie-pagina {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+  background-image: url('../img/footer-1600.png');
+}
+
+.contenedor-anuncios {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.anuncio-pc {
+  width: 728px;
+  height: 90px;
+  border: 0px;
+}
+
+.anuncio-movil {
+  display: none;
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+  .anuncio-pc {
+    display: none;
+  }
+
+  .anuncio-movil {
+    display: block;
+    width: 234px;
+    height: 60px;
+    border: 0px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .titulo {
+    font-size: 50px;
+  }
+
+  .subtitulo {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .anuncio-pc {
+    display: none;
+  }
+
+  .anuncio-movil {
+    display: block;
+    width: 234px;
+    height: 60px;
+    border: 0px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .cabecera {
+    height: 320px;
+  }
+
+  .titulo {
+    font-size: 50px;
+  }
+
+  .subtitulo {
+    font-size: 25px;
+  }
+}
